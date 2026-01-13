@@ -1,72 +1,96 @@
-# Proyecto Final – Excuse Generator (JavaScript)
+# The Excuse Generator (JavaScript)
 
-## Objetivo
-Utilizar Copilot de forma guiada para generar un programa en JavaScript que construya una excusa aleatoria y la imprima en la consola.
+Disneyland for procrastinators and lazy people.
 
-El objetivo **no es solo el resultado**, sino aprender a **dar instrucciones claras y progresivas a la IA**, entendiendo cada parte del código generado.
+This project is ideal for avoiding someone annoying. It takes no more than 20 lines of code and can save you for the rest of your life.
 
----
+## Objective
 
-## Reglas del proyecto
+This project is designed as a first practical experience with JavaScript, focused on learning by doing. Through the creation of an excuse generator that runs in the console, students will work with a reduced amount of code, allowing them to focus on the fundamentals of the language without unnecessary distractions.
 
-- Trabajar **paso a paso**, siguiendo el orden indicado.
-- No pedir todo el código en un solo prompt.
-- Leer y comprender el código antes de continuar al siguiente paso.
-- Ejecutar el proyecto usando **Node.js**.
-- Imprimir el resultado final en consola con `console.log`.
+During the development of the project, key concepts such as the use of arrays, random data selection, and string construction will be reinforced. Due to its simplicity and playful nature, this exercise works as an excellent starting point for those beginning their journey as developers.
 
----
+Additionally, the project introduces the use of Copilot as a development support tool. The goal is not just to obtain a functional program, but to learn how to guide the AI through clear and progressive instructions, understanding and validating each part of the generated code before moving on to the next step.
 
-## Instrucciones paso a paso (Prompts para Copilot)
+## Project Rules
 
-### Paso 1 – Crear el archivo
-- Pedir a Copilot que cree un archivo JavaScript llamado `excuse-generator.js`, preparado para ejecutarse con Node.js.
+- Work **step by step**, following the indicated order.
+- Do not request all the code in a single prompt.
+- Read and understand the code before continuing to the next step.
+- Run the project using **Node.js**.
+- Print the final result in the console with `console.log`.
 
 ---
 
-### Paso 2 – Array de “quién”
-- Pedir a Copilot que cree un array llamado `who` con al menos 4 sujetos posibles que puedan iniciar una excusa.
+<onlyfor saas="false" withBanner="false">
+  
+## 🌱 How to Start This Project
+
+Do not clone this repository because we are going to use a different template.
+
+We recommend opening the `excuses-generator-with-prompts` repository using a development environment like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
+
+This is the repository you need to open or clone:
+
+```text
+https://github.com/4GeeksAcademy/excuses-generator-with-prompts
+```
+
+**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+
+</onlyfor>
+
+## Step-by-Step Instructions (Prompts for Copilot)
+
+### Step 1 – Create the File
+- Ask Copilot to create a JavaScript file called `excuse-generator.js`, prepared to run with Node.js.
 
 ---
 
-### Paso 3 – Array de “acción”
-- Pedir a Copilot que cree un array llamado `action` con acciones en pasado que puedan formar parte de una excusa.
+### Step 2 – "Who" Array
+- Ask Copilot to create an array called `who` with at least 4 possible subjects that can start an excuse.
 
 ---
 
-### Paso 4 – Array de “qué”
-- Pedir a Copilot que cree un array llamado `what` con objetos o situaciones relacionadas con la excusa.
+### Step 3 – "Action" Array
+- Ask Copilot to create an array called `action` with past tense actions that can be part of an excuse.
 
 ---
 
-### Paso 5 – Array de “cuándo”
-- Pedir a Copilot que cree un array llamado `when` con referencias de tiempo (por ejemplo: hoy, ayer, esta mañana, etc.).
+### Step 4 – "What" Array
+- Ask Copilot to create an array called `what` with objects or situations related to the excuse.
 
 ---
 
-### Paso 6 – Selección aleatoria
-- Pedir a Copilot que genere una línea de código para obtener un valor aleatorio del array `who`.
-- Pedir a Copilot que genere una línea de código para obtener un valor aleatorio del array `action`.
-- Pedir a Copilot que genere una línea de código para obtener un valor aleatorio del array `what`.
-- Pedir a Copilot que genere una línea de código para obtener un valor aleatorio del array `when`.
-- Utilizar `Math.random()` y `Math.floor()` para la selección aleatoria.
+### Step 5 – "When" Array
+- Ask Copilot to create an array called `when` with time references (for example: today, yesterday, this morning, etc.).
 
 ---
 
-### Paso 7 – Construir la excusa
-- Pedir a Copilot que concatene los valores aleatorios obtenidos en una sola frase.
-- Guardar la frase resultante en una variable llamada `excuse`.
+### Step 6 – Random Selection
+- Ask Copilot to generate a line of code to get a random value from the `who` array.
+- Ask Copilot to generate a line of code to get a random value from the `action` array.
+- Ask Copilot to generate a line of code to get a random value from the `what` array.
+- Ask Copilot to generate a line of code to get a random value from the `when` array.
+- Use `Math.random()` and `Math.floor()` for random selection.
 
 ---
 
-### Paso 8 – Imprimir en consola
-- Pedir a Copilot que imprima el valor de la variable `excuse` usando `console.log`.
+### Step 7 – Build the Excuse
+- Ask Copilot to concatenate the random values obtained into a single sentence.
+- Store the resulting sentence in a variable called `excuse`.
 
 ---
 
-## Ejecución del programa
+### Step 8 – Print to Console
+- Ask Copilot to print the value of the `excuse` variable using `console.log`.
 
-Ejecutar el proyecto desde la terminal con el siguiente comando:
+---
+
+## Running the Program
+
+Run the project from the terminal with the following command:
 
 ```bash
 node excuse-generator.js
+```
