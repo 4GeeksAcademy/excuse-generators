@@ -1,5 +1,7 @@
 # The Excuse Generator (JavaScript)
 
+Created and modified by Settar Mengli as part of a GitHub learning exercise.
+
 Disneyland for procrastinators and lazy people.
 
 This project is ideal for avoiding someone annoying. It takes no more than 20 lines of code and can save you for the rest of your life.
