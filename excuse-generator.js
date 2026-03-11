@@ -1,3 +1,7 @@
+// Author: Settar Mengli
+// Project: Excuse Generator
+// Version: 1.0
+
 const who = ["My dog", "My grandma", "My neighbor", "A stranger"];
 const action = ["ate", "broke", "stole", "destroyed"];
 const what = ["my homework", "my phone", "my car", "my laptop"];
